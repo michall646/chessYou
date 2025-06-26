@@ -35,6 +35,7 @@ import * as Haptics from 'expo-haptics';
 import { Easing } from "react-native-reanimated"
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import BotErrorModal from "./BotErrorModal"
+import { Stack } from "expo-router"
 
 const moveAudio = require('../../assets/sounds/move.mp3');
 
@@ -1081,6 +1082,7 @@ const PlayMode = ({gameSettings, difficulty}) => {
 
     if(windowHeight<windowWidth){
         return(<>
+            <Stack.Screen options={{title: t("play")}}/>
             <GameOverModal  visible={gameoverVisible} setVisible={setGameoverVisible} gameResult={gameResult}/>
             <PromotionModal visible={promotionVisible} setVisible={setpromotionVisible} select={selectPromotion}/>
             <BotErrorModal visible={botErrorVisible} setVisible={setBotErrorVisible} content={botErrorContent}/>
@@ -1145,6 +1147,7 @@ const PlayMode = ({gameSettings, difficulty}) => {
     }
     else{
         return(<>
+            <Stack.Screen options={{title: t("play")}}/>
             <GameOverModal  visible={gameoverVisible} setVisible={setGameoverVisible} gameResult={gameResult}/>
             <PromotionModal visible={promotionVisible} setVisible={setpromotionVisible} select={selectPromotion}/>
             <BotErrorModal visible={botErrorVisible} setVisible={setBotErrorVisible} content={botErrorContent}/>

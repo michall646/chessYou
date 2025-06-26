@@ -5,6 +5,7 @@
     "scheme": "chessyou",
     "version": "1.0.0",
     "orientation": "portrait",
+    
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
@@ -26,8 +27,14 @@
       "package": "com.michal646.chessYou",
       "edgeToEdgeEnabled": true
     },
+    "platforms": [
+      "ios",
+      "android",
+      "web" // <-- Make sure 'web' is here if this array exists
+    ],
     "web": {
-      "favicon": "./assets/adaptive-icon.png"
+      "favicon": "./assets/adaptive-icon.png",
+      "baseUrl": "/chessYou/"
     },
     "plugins": [
       "expo-asset",
