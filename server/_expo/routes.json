@@ -1,0 +1,169 @@
+{
+  "apiRoutes": [],
+  "htmlRoutes": [
+    {
+      "file": "./index.js",
+      "page": "/index",
+      "namedRegex": "^/(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/more/(settingsPages)/Board.js",
+      "page": "/(tabs)/more/(settingsPages)/Board",
+      "namedRegex": "^(?:/\\(tabs\\))?/more(?:/\\(settingsPages\\))?/Board(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/more/(settingsPages)/Sounds.js",
+      "page": "/(tabs)/more/(settingsPages)/Sounds",
+      "namedRegex": "^(?:/\\(tabs\\))?/more(?:/\\(settingsPages\\))?/Sounds(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/more/(settingsPages)/Language.js",
+      "page": "/(tabs)/more/(settingsPages)/Language",
+      "namedRegex": "^(?:/\\(tabs\\))?/more(?:/\\(settingsPages\\))?/Language(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/more/(settingsPages)/ColorIcon.js",
+      "page": "/(tabs)/more/(settingsPages)/ColorIcon",
+      "namedRegex": "^(?:/\\(tabs\\))?/more(?:/\\(settingsPages\\))?/ColorIcon(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/more/(settingsPages)/Apperance.js",
+      "page": "/(tabs)/more/(settingsPages)/Apperance",
+      "namedRegex": "^(?:/\\(tabs\\))?/more(?:/\\(settingsPages\\))?/Apperance(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/puzzle/Card.js",
+      "page": "/(tabs)/puzzle/Card",
+      "namedRegex": "^(?:/\\(tabs\\))?/puzzle/Card(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/puzzle/Index.js",
+      "page": "/(tabs)/puzzle/Index",
+      "namedRegex": "^(?:/\\(tabs\\))?/puzzle/Index(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/play/Index.js",
+      "page": "/(tabs)/play/Index",
+      "namedRegex": "^(?:/\\(tabs\\))?/play/Index(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/more/Piece.js",
+      "page": "/(tabs)/more/Piece",
+      "namedRegex": "^(?:/\\(tabs\\))?/more/Piece(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/more/Learn.js",
+      "page": "/(tabs)/more/Learn",
+      "namedRegex": "^(?:/\\(tabs\\))?/more/Learn(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/more/Index.js",
+      "page": "/(tabs)/more/Index",
+      "namedRegex": "^(?:/\\(tabs\\))?/more/Index(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/more/About.js",
+      "page": "/(tabs)/more/About",
+      "namedRegex": "^(?:/\\(tabs\\))?/more/About(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/play/Options.js",
+      "page": "/(tabs)/play/Options",
+      "namedRegex": "^(?:/\\(tabs\\))?/play/Options(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/more/Settings.js",
+      "page": "/(tabs)/more/Settings",
+      "namedRegex": "^(?:/\\(tabs\\))?/more/Settings(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/more/PlayDisc.js",
+      "page": "/(tabs)/more/PlayDisc",
+      "namedRegex": "^(?:/\\(tabs\\))?/more/PlayDisc(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/more/Openings.js",
+      "page": "/(tabs)/more/Openings",
+      "namedRegex": "^(?:/\\(tabs\\))?/more/Openings(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "expo-router/build/views/Sitemap.js",
+      "page": "/_sitemap",
+      "namedRegex": "^/_sitemap(?:/)?$",
+      "routeKeys": {},
+      "generated": true
+    },
+    {
+      "file": "./BoardPage.js",
+      "page": "/BoardPage",
+      "namedRegex": "^/BoardPage(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/more/OptionCard.js",
+      "page": "/(tabs)/more/OptionCard",
+      "namedRegex": "^(?:/\\(tabs\\))?/more/OptionCard(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/more/OpeningDisc.js",
+      "page": "/(tabs)/more/OpeningDisc",
+      "namedRegex": "^(?:/\\(tabs\\))?/more/OpeningDisc(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/play/BotSelection.js",
+      "page": "/(tabs)/play/BotSelection",
+      "namedRegex": "^(?:/\\(tabs\\))?/play/BotSelection(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/play/TimeSelection.js",
+      "page": "/(tabs)/play/TimeSelection",
+      "namedRegex": "^(?:/\\(tabs\\))?/play/TimeSelection(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/more/AdvancedPlays.js",
+      "page": "/(tabs)/more/AdvancedPlays",
+      "namedRegex": "^(?:/\\(tabs\\))?/more/AdvancedPlays(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/play/AdditionalSelection.js",
+      "page": "/(tabs)/play/AdditionalSelection",
+      "namedRegex": "^(?:/\\(tabs\\))?/play/AdditionalSelection(?:/)?$",
+      "routeKeys": {}
+    }
+  ],
+  "notFoundRoutes": [
+    {
+      "file": "expo-router/build/views/Unmatched.js",
+      "page": "/+not-found",
+      "namedRegex": "^(?:/(?<notfound>.+?))?(?:/)?$",
+      "routeKeys": {
+        "notfound": "not-found"
+      },
+      "generated": true
+    }
+  ],
+  "redirects": [],
+  "rewrites": []
+}
