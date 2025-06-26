@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting...</title>
+  <script>
+    // Get the current path without the hostname or repo name
+    // For example, if on /chessYou/profile, this gets /profile
+    var path = window.location.pathname.replace(/\/$/, ''); // Remove trailing slash if it exists
+    var repoName = "/chessYou"; // Your repository name with a leading slash
+
+    // If the path starts with the repoName, strip it off
+    if (path.startsWith(repoName)) {
+      path = path.substring(repoName.length);
+    }
+
+    // Remove any leading/trailing slashes from the extracted path
+    path = path.replace(/^\/|\/$/g, '');
+
+    // Construct the full redirect URL
+    // Example: https://YOUR_USERNAME.github.io/chessYou/?path=/profile
+    var redirectUrl = window.location.protocol + "//" +
+                      window.location.host +
+                      repoName + "/" +
+                      "?path=" + encodeURIComponent(path);
+
+    // Perform the redirect
+    window.location.replace(redirectUrl);
+  </script>
+</head>
+<body>
+  <p>Redirecting to the app...</p>
+</body>
+</html>
