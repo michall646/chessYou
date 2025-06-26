@@ -2,6 +2,7 @@
   "expo": {
     "name": "chessYou",
     "slug": "chessYou",
+    "scheme": "chessyou",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -16,13 +17,27 @@
       "supportsTablet": true
     },
     "android": {
+      
       "adaptiveIcon": {
+        "monochromeImage": "./assets/adaptive-icon.png",
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.michal646.chessYou",
+      "edgeToEdgeEnabled": true
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/adaptive-icon.png"
+    },
+    "plugins": [
+      "expo-asset",
+      "expo-router",
+      "expo-audio"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "84a4b400-8ca5-4924-87be-781ce84f2024"
+      }
     }
   }
 }
